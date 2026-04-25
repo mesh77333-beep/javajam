@@ -1,0 +1,177 @@
+
+body {
+    background-color: #FCEBB6; 
+    color: #221811; 
+    font-family: Verdana, Arial, sans-serif; 
+}
+
+
+header {
+    background-color: #D2B48C; 
+    text-align: center;
+}
+
+h1 {
+    line-height: 200%; 
+     
+}
+
+
+nav {
+    text-align: center; 
+    font-weight: bold; 
+}
+
+
+footer {
+    background-color: #D2B48C; 
+    font-size: 1em; 
+    font-style: italic; 
+    text-align: center; 
+    margin-top: 20px;
+
+}
+
+#wrapper {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.menu-item {
+    width: 200px;
+    background-color: #f9f9f9;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative; 
+    text-align: center;
+    z-index: 1;
+}
+
+
+.menu-item img {
+    width: 100%;
+    transition: transform 0.3s ease; 
+    position: relative;
+    z-index: 2; 
+}
+
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
+    pointer-events: none; 
+}
+
+
+
+
+main h2 { text-align: center; }
+fieldset {
+    margin-top: 2px; 
+    margin-bottom: 2px; 
+    border: 1px solid #d2b48c; 
+    padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+legend {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 0.9em; 
+}
+
+label {
+    display: inline-flex; 
+    align-items: center;  
+    white-space: nowrap; 
+    width: auto;          
+    margin-right: 15px;  
+}
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+select, 
+textarea {
+    padding: 8px; 
+    margin-bottom: 8px; 
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;         
+    margin: 0 5px 0 0;   
+}
+
+#orderTotal {
+    font-weight: bold;
+    margin-top: 10px; 
+    font-size: 1em;
+}
+
+
+button, input[type="submit"] {
+    padding: 2px 10px; 
+    font-size: 0.85em;
+    margin-top: 5px;
+}
+
+
+main h3 {
+    color: #4C3327; 
+    font-family: Verdana, Geneva, sans-serif;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #D2B48C; 
+    padding-bottom: 5px;
+}
+
+
+main p {
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+
+main strong {
+    color: #221811;
+}
+
+
+#job-list {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.status-open {
+    color: green;
+    font-weight: bold;
+}
+
+nav a { margin: 0 8px; color: #221811; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.coffee-placeholder { height: 120px; background-color: #D2B48C; color: #221811; display: flex; align-items: center; justify-content: center; font-weight: bold; border-radius: 6px; transition: transform 0.3s ease; }
+.coffee-placeholder:hover { transform: scale(1.1); }
